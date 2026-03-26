@@ -14,7 +14,7 @@ router = APIRouter(prefix="/user", tags=["User"])
 users_collection = db["users"]
 
 # ✅ Read from .env — never hardcode IP again
-BASE_URL = os.getenv("BASE_URL", "http://localhost:9000")
+BASE_URL = os.getenv("BASE_URL", "http://localhost:8000")
 UPLOAD_DIR = "uploads/profile_pictures"
 
 
