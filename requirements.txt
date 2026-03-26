@@ -3,3 +3,5 @@ uvicorn
 firebase-admin
 python-jose
 pymongo
+python-dotenv
+motor
